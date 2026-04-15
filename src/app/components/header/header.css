@@ -1,0 +1,30 @@
+.header {
+  background: var(--color-neutral-0);
+  border: 1px;
+  border-color: var(--color-neutral-200);
+  border-style: solid;
+  border-radius: 20px;
+  min-height: 54px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-btn {
+  height: 100%;
+  border-radius: 12px;
+  border: none;
+  padding: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-neutral-100);
+}
+
+.theme-btn img {
+  aspect-ratio: 1;
+  width: 22px;
+}

@@ -1,0 +1,13 @@
+.container {
+  margin: 40px 135px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.data_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+  gap: 24px;
+  min-width: 0;
+}

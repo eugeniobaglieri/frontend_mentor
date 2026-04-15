@@ -1,0 +1,84 @@
+.card {
+  background: var(--color-neutral-0);
+  border: 1px solid var(--color-neutral-200);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.card_header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.card_data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.card_title {
+  color: var(--color-neutral-900);
+}
+
+.card_description {
+  color: var(--color-neutral-600);
+}
+
+.actions_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.remove_button {
+  background: var(--color-neutral-100);
+  border: 1 solid var(--color-neutral-300);
+  border-radius: 999px;
+  color: var(--color-neutral-900);
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.toggle {
+  appearance: none;
+  position: relative;
+  font-size: inherit;
+  aspect-ratio: 2;
+  width: 36px;
+  height: 20px;
+  border: none;
+  border-radius: 1em;
+  background-color: var(--color-neutral-300);
+  cursor: pointer;
+}
+
+.toggle:checked {
+  background-color: var(--color-red-500);
+}
+
+.toggle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
+  border-radius: 50%;
+  background: var(--color-neutral-0);
+}
+.toggle:checked::before {
+  left: 16px;
+}

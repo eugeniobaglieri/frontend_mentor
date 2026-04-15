@@ -1,0 +1,32 @@
+.filter-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.filter-bar_title {
+  color: var(--color-neutral-900);
+}
+
+.filter-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.filter-btn {
+  background: var(--color-neutral-0);
+  border: 1px solid var(--color-neutral-200);
+  color: var(--color-neutral-900);
+  padding: 10px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  border-color: var(--color-red-500);
+  background: var(--color-red-500);
+  color: var(--color-neutral-0);
+}
