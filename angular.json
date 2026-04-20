@@ -68,9 +68,11 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
+            "branch": "deploy",
+            "repo": "https://github.com/eugeniobaglieri/frontend_mentor.git",
             "name": "Eugenio Baglieri",
             "email": "baglieri.eugenio@gmail.com",
-            "base-href": "/frontend_mentor/"
+            "baseHref": "/frontend_mentor/"
           }
         }
       }
