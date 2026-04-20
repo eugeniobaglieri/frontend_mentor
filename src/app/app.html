@@ -1,17 +1,1 @@
-<div class="container">
-  <app-header></app-header>
-  <app-filter-bar
-    [filters]="filters"
-    [selectedFilter]="currentFilter"
-    (filterChange)="onFilterChange($event)"
-  ></app-filter-bar>
-  <div class="data_container">
-    @for (item of extensions; track item.name) {
-      <app-extension-card
-        [extension]="item"
-        (toggle)="toggle(item)"
-        (remove)="remove(item)"
-      ></app-extension-card>
-    }
-  </div>
-</div>
+<app-product-preview-card></app-product-preview-card>
