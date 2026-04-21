@@ -22,11 +22,6 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              },
-              {
-                "glob": "**/*",
-                "input": "src/assets",
-                "output": "assets"
               }
             ],
             "styles": ["src/styles.css"]
@@ -73,7 +68,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "branch": "deploy",
+            "branch": "main",
             "repo": "https://github.com/eugeniobaglieri/frontend_mentor.git",
             "name": "Eugenio Baglieri",
             "email": "baglieri.eugenio@gmail.com",
