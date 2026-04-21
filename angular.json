@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "browser_extensions": {
+    "frontend_mentor": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -22,6 +22,11 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": ["src/styles.css"]
@@ -54,10 +59,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "browser_extensions:build:production"
+              "buildTarget": "frontend_mentor:build:production"
             },
             "development": {
-              "buildTarget": "browser_extensions:build:development"
+              "buildTarget": "frontend_mentor:build:development"
             }
           },
           "defaultConfiguration": "development"
