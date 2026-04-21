@@ -22,7 +22,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('/images_product_preview/image-product-mobile.jpg');
+  background-image: url('../../../../../assets/images_product_preview/image-product-mobile.jpg');
 }
 
 .product_details {
@@ -80,6 +80,6 @@
 
   .product_image {
     aspect-ratio: 300/456;
-    background-image: url('/images_product_preview/image-product-desktop.jpg');
+    background-image: url('../../../../../assets/images_product_preview/image-product-desktop.jpg');
   }
 }
