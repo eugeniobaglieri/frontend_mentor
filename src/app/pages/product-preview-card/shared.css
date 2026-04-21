@@ -1,0 +1,48 @@
+:host {
+  --color-black: #1C232B;
+  --color-grey: #6C7289;
+  --color-cream: #F2EAE2;
+  --color-white: #FFFFFF;
+  --color-green-500: #3D8168;
+  --color-green-700: #1A4032;
+}
+
+.text-preset-1 {
+  font-family: 'Fraunces';
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.text-preset-2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.text-preset-3 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+.text-preset-4 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  letter-spacing: 0.3125em;
+}
+
+.text-preset-5 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
